@@ -15,21 +15,21 @@ Utilisation d’herbicides et d’engrais
 
 # 📊 Étapes réalisées
 
-1. Importation et exploration des données
+## 1. Importation et exploration des données
 Chargement de train.csv et test.csv
 
 Aperçu général : dimensions, types, valeurs manquantes
 
 Visualisation des distributions de features
 
-2. Nettoyage et preprocessing
+## 2. Nettoyage et preprocessing
 Vérification des valeurs nulles
 
 Analyse de la corrélation avec la variable cible
 
 Normalisation ou standardisation éventuelle des données
 
-3. Modélisation
+## 3. Modélisation
 Le modèle de régression est entraîné pour prédire la variable cible (yield).
 Modèles testés :
 
@@ -41,7 +41,7 @@ DecisionTreeRegressor
 
 Deep Neural Network
 
-4. Prédiction et évaluation
+## 4. Prédiction et évaluation
 Prédiction sur l’ensemble de test
 
 Évaluation avec des métriques comme :
